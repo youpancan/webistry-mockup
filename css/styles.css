@@ -1,0 +1,61 @@
+body {
+  background-color: #F0F1F4;
+}
+
+.container {
+  margin: 0 auto;
+  /* top: 98px; */
+  text-align: center;
+  font: normal normal bold 56px/60px Work Sans;
+    letter-spacing: -0.67px;
+  opacity: 1;
+}
+
+span {
+  color:red;
+}
+
+#img-webistry {
+  margin-right: 20px;
+}
+
+#white-form {
+  margin: 0 auto;
+  width: 451px;
+  height: 491px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  opacity: 1;
+  text-align: left;
+  padding-left: 30px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 0;
+  /* letter-spacing: -0.67px; */
+}
+
+#white-form label {
+  display: block;
+  font-size:20px;
+
+}
+
+button {
+  background-color: #F05F5D;
+  color:#FFFFFF;
+  height: 54px;
+  width: 387px;
+  border: none;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+
+
+#white-form input, select {
+  width: 387px;
+  height: 44px;
+  border-radius: 12px;
+}
