@@ -2,55 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web Design</title>
+    <title>Webisity</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
  <div class="container">
-    <div>
-       <img id="img-webistry" src="./images/webistry.svg"/>
+    <div class="banner">
+       <img src="./images/webistry.svg"/>
        <img src="./images/lewagon.svg"/>
     </div>
-    <h5><span>Level up</span> your coding
-    <br/>
-    skills with Webisity.
-    </h5>
-<form id="white-form">
-  <p>Let's get started by knowing
-  <br/>
-      more about you.
+    <h1>
+      <span>Level up</span> your coding skills with Webisity.
+    </h1>
+<form action="#" method="post">
+  <p>
+    Let's get started by knowing more about you.
   </p>
 
-    <label>Name</label>
+    <label for="name">Name</label>
+    <input type="text"  id ="name" name="name" placeholder="Enter your name" required>
 
-    <input type="text" name="name" placeholder="Enter your name">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-
-
-    <label>Email</label>
-
-    <input type="email" name="email" placeholder="Enter your email">
-
-
-
-    <label>What's your favorite coding language?</label>
-
-    <select id="languages" placeholder="JavaScript" >
+    <label for="languages">What's your favorite coding language?</label>
+    <select id="languages" name="languages" >
         <option value="JavaScript">JavaScript</option>
         <option value="PHP">PHP</option>
         <option value="Java">Java</option>
     </select>
 
+    <div class="checkbox">
+      <input type="checkbox" id="information">
+      <label for="information">The information provided above is accurate</label>
+    </div>
 
-
-    <input type="checkbox" id="information">
-    <label for="information">The information provided above is accurate</label>
-    <button onclick="changePage()">Level Up</button>
-
-
+    <button id="submit" type="submit">Level Up</button>
 </form>
-
 </div>
-
+<script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
