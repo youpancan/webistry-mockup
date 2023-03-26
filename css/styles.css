@@ -45,7 +45,7 @@ p {
  label {
   display: block;
   font-size:20px;
-  padding:10px 0;
+  padding: 15px 0 2px 0;
 
 }
 
@@ -54,18 +54,20 @@ input , select {
   height: 44px;
   border-radius: 12px;
   border: 2px #ECEDF2 solid;
+
 }
 
 .checkbox {
   display:flex;
   flex-direction: row;
+  gap: 5px;
 }
 
 .checkbox input{
   width: 20px;
-  margin: 0;
-  padding: 5px 0;
-  margin-bottom: 5px;
+  margin-top: 3px;
+
+  margin-bottom: 10px;
 }
 
 button {
